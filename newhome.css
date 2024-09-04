@@ -1,0 +1,176 @@
+.header-section {
+    display: flex;
+}
+
+.food {
+  font-size: 50px;
+}
+
+.main-div {
+  padding: 42px 0 100px 100px;
+  background-color: #f3fcf7;
+  height: 663px;
+}
+
+.first-header {
+  display: flex;
+  justify-content: space-between;
+  width: 1250px;
+  list-style: none;
+  background-color: #f3fcf7;
+}
+
+.new-ul {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  text-align: center;
+}
+
+.aee {
+  border: ;
+  width: 200px;
+  height: 40px;
+  margin-top: 30px;
+  background-color: #06c167;
+  padding: 25px 0 20px 40px ;
+}
+
+.aee {
+  color: #ffffff;
+}
+
+.second-div {
+  display: flex;
+}
+
+.image2 {
+  margin: 70px 50px 100px 100px;
+  width: 468px;
+  height: 634px;
+}
+
+.food {
+  font-family: inter;
+  font-weight: 600;
+  font-size: 75px;
+  width: 533px;
+  height: 182px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+
+.pee {
+  font: inter;
+  font-weight: 400px;
+  font-size: 16px;
+  width: 533px;
+  height: 46px;
+  margin-top: 1px;
+}
+
+.ultra {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 100px;
+  width: 540px;
+  height: 35.12px;
+  padding: 5px;
+  position: relative;
+  top: -35%;
+  left: -9%;
+} 
+
+.icons234 {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid  rgb(194, 189, 189);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid rgb(194, 189, 189);
+  margin: 50px 80px;
+}
+
+
+.h3 {
+  display: flex;
+  width: 200px;
+  height: 0px;
+}
+
+.icons123 {
+  display: flex;
+  width: 200px;
+  height: 55px;
+  align-items: center;
+}
+
+.shadow3 > h3 {
+  padding-bottom: 10px;
+}
+
+.fruits {
+  display: flex;
+  padding: 100px;
+  
+}
+
+.grin {
+  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  list-style: none;
+}
+
+.letters {
+  font-size: 50px;
+}
+
+.li {
+  font-size: 18px;
+}
+
+.green {
+  display: flex;
+}
+
+.img-div {
+  padding-left: 20px;
+}
+
+.h4 {
+  font-size: 50px;
+}
+
+.divine {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.new {
+  font-size: 35px;
+  color: #06c167;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.sold {
+  font-size: 20px;
+}
+
+.green {
+  display: flex;
+  padding: 100px;
+}
+
+.get {
+  width: 40px;
+  height: 50px;
+  color: #06c167;
+}
+
+
+

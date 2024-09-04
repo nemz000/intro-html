@@ -1,0 +1,541 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    display: flex ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px 50px;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+li > a {
+    color: black;
+}
+
+li:hover {
+    border-bottom: 1px solid brown;
+}
+
+.header-btn {
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+    background-color: brown;
+    color: antiquewhite;
+    /* font-size: 15px; */
+}
+
+.hero-section {
+    text-align: center;
+    border: 1xp solid;
+    padding: 60px 0;
+}
+
+.hero-section > h1 {
+    font-size: 72px;
+}
+
+.hero-section > p {
+    width: 400px;
+    margin: 35px auto;
+    line-height: 32px;
+
+}
+
+.hero-section > button {
+    width: 300px;
+    border: none;
+    padding: 15px 0;
+    border-radius: 20px;
+    background-color: brown;
+    color: antiquewhite;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.learn {
+    display: block;
+    color: brown;
+}
+
+.trybe {
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    padding: 50px 80px;
+    gap: 40px;
+    background-color: #FBFBFB;
+}
+
+.left-trybe > .bottom-photo {
+    display: block;
+    margin-top: 40px;
+}
+
+.right-trybe > h2 {
+    font-size: 64px;
+}
+
+.right-trybe > p {
+    font-size: 16px;
+    width: 400px;
+    line-height: 25px;
+    margin: 40px 0;
+}
+
+.right-trybe > a {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    width: 220px;
+    justify-content: center;
+    padding: 25px 0;
+    background-color: #ffffff;
+    cursor: pointer;
+    box-shadow: 2px 2px 0px gray;
+    color: black;
+}
+
+.feature-section {
+    border: 1px solid brown;
+    padding: 40px 20px;
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-section > h2 {
+    font-size: 64px;
+    color: #bdbdbd;
+    font-weight: 300;
+}
+
+.feature > div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.feature > div > h3 {
+    font-size: 200px;
+    font-weight: 800;
+    color: #bdbdbd;
+}
+
+.feature > div > .para-1 {
+    width: 279px;
+    line-height: 36px;
+     font-size: 22px;  
+}
+
+.feature > div > .para-2 {
+    width: 420px;
+    line-height: 36px;
+     font-size: 22px;  
+}
+
+.nemi-section > h2 {
+    width: 427px;
+    height: 64px;
+    font-size: 64px;
+    font-weight: 300;
+    color: #bdbdbd;
+    border-image-width: 1170px;}
+
+
+.nemi-section > .other-photo {
+    top: 2027px;
+    left: 135px;
+    width: 1170px;
+    display: block;
+    } 
+.nemi-section {
+        border: 2px solid blue;
+        justify-content: center;
+}
+
+.nemi-section > button {
+    width: 221.81px;
+    height: 71px;
+    top: 2721px;
+    left: 1083px;
+    background-color: #333333;
+    color:  #FFFFFF;
+    padding: 15px 0;
+}
+
+.group-section >  h2 {
+    font-size: 64px;
+    font-weight: 300;
+    color:#bdbdbd ;
+    line-height: 64px;
+}
+
+.group-section > div {
+    display: flex;
+}
+
+.group-section > input {
+    color: #F3F3F3;
+}
+
+.position > div {
+    border: 1px solid;
+    height: 200px;
+    width: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green{
+    background-color: green;
+
+}
+
+.brown {
+    background-color: brown;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: 30vw 40vw 30vw;
+    grid-template-rows: 20vh 60vh 20vh;
+    border: 1px solid;
+}
+
+
+.header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: orange;
+    text-align: center;
+}
+
+.leftsidebar {
+    grid-column-start: 1;
+    background-color: blue;
+    text-align: center;
+}
+
+.maincontest{
+    grid-column-start: 2;
+    background-color: purple;
+    text-align: center;
+}
+
+.rightsidebar {
+    grid-column-start: 3;
+    background-color: green;
+    text-align: center;
+}
+
+.footer {
+    grid-column-start: 1;
+    grid-column-end: 4;
+     background-color: palevioletred;
+     text-align: center;
+}
+
+.div-section {
+     display: grid;
+     grid-template-columns: 20vw 20vw 20vw 30vw;
+     grid-template-rows: 20vh 40vh 30vh;
+     }
+
+.nav {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    border: 3px solid blue;
+}
+
+.sidebar {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    border: 3px solid blue;
+}
+
+.name {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border: 3px solid blue;
+}
+
+.slidebar {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border: 3px solid blue;
+}
+
+.section{
+    grid-row-start: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-end: 4;
+    border: 3px solid blue;
+}
+
+.selection {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border: 3px solid blue;
+}
+
+.section-section {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 40vh 40vh;
+    background-color: lavender;
+    gap: 30px;
+    padding: 40px 210px;
+}
+
+.search {
+    background-color: #ffffff;
+    border-radius: 7%;
+    box-shadow: 2px 2px 2px 2px lavenderblush;
+    padding: 65px 30px;
+}
+
+.pharmacy {
+    background-color: #ffffff;
+    border-radius: 7%;
+    box-shadow: 2px 2px 2px 2px lavenderblush;
+    padding: 65px 30px;
+}
+
+.consultation {
+    background-color: #ffffff;
+    border-radius: 7%;
+    box-shadow: 2px 2px 2px 2px lavenderblush;
+    padding: 65px 30px;
+}
+
+.emergency {
+    background-color: #ffffff;
+    border-radius: 7%;
+    box-shadow: 2px 2px 2px 2px lavenderblush;
+    padding: 65px 30px;
+}
+
+.details {
+    background-color: #ffffff;
+    border-radius: 7%;
+    box-shadow: 2px 2px 2px 2px lavenderblush;
+    padding: 65px 30px;
+}
+
+.tracking {
+    border-radius: 7%;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px 2px lavenderblush;
+    padding: 65px 30px;
+}
+
+.new-section {
+    border: 1px solid black;
+}
+
+.food-section {
+    text-align: center;
+    padding: 200px 20px;
+    size: 1440px 619px;
+    color: #FBFBFB;
+}
+
+.food-section > h2 {
+    width: 937px 160px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.playstore {
+    background-color: #FA4A0C;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: #FBFBFB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-store {
+    background-color: transparent;
+    border-radius: 30px;
+    width: 119px;
+    height: 39px;
+    color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.now-section {
+    text-align:center;
+    position: relative;
+    left: 300px;
+    top: -350px;
+}
+
+.omubor-section {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: -400px;
+    left: 250px;
+}
+
+.never-section > h2 {
+    display: flex;
+    position: relative;
+    top: -380px;
+    left: 590px;
+}
+
+.first-section {
+     display: flex;
+}
+
+.div-class{
+    position: relative;
+    top: -400px;
+}
+
+.pee {
+    color: #FA4A0C;
+}
+
+.other-p  {
+    color: #737373;
+}
+
+.new-div {
+    position: relative;
+    top: -185px;
+    left: -100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.second-section {
+    display: flex;
+}
+
+.nice-div {
+    position: relative;
+    top: -450px;
+    left: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image-class {
+    position: relative;
+    top: -700px;
+    left: 250px;
+}
+
+.pis {
+    color: #FA4A0C;
+}
+
+.second-pis {
+    color: #737373;
+}
+
+
+.third-section {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.two-image {
+    position: relative;
+    top: -990px;
+}
+
+.nicer-div {
+    position: relative;
+    top: -765px;
+}
+
+.check {
+    color: #FA4A0C;
+}
+
+.when {
+    color: #737373;
+}
+
+.fourth-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F3F3F3;
+    text-align: center;
+    position: relative;
+    top: -1100px;
+    padding: 180px 20px;
+}
+
+.button-pee {
+    background-color: #FA4A0C;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px
+}
+
+.button-aee {
+    background-color: transparent;
+    border-radius: 30px;
+    width: 119px;
+    height: 39px;
+    color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-section {
+    position: relative;
+    top: -1100px;
+    text-align: center;
+    border: 0.5px solid #FA4A0C;
+}
+
+.header-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.hm {
+    color: #FA4A0C;
+}

@@ -1,0 +1,195 @@
+.new-section {
+    border: 1px solid black;
+}
+
+.food-section {
+    text-align: center;
+    padding: 200px 20px;
+    size: 1440px 619px;
+    color: #FBFBFB;
+}
+
+.food-section > h2 {
+    width: 937px 160px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.playstore {
+    background-color: #FA4A0C;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    color: #FBFBFB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-store {
+    background-color: transparent;
+    border-radius: 30px;
+    width: 119px;
+    height: 39px;
+    color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.now-section {
+    text-align:center;
+    position: relative;
+    left: 300px;
+    top: -350px;
+}
+
+.omubor-section {
+    text-align: center;
+    display: flex;
+    position: relative;
+    top: -400px;
+    left: 250px;
+}
+
+.never-section > h2 {
+    display: flex;
+    position: relative;
+    top: -380px;
+    left: 590px;
+}
+
+.first-section {
+     display: flex;
+}
+
+.div-class{
+    position: relative;
+    top: -400px;
+}
+
+.pee {
+    color: #FA4A0C;
+}
+
+.other-p  {
+    color: #737373;
+}
+
+.new-div {
+    position: relative;
+    top: -185px;
+    left: -100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.no {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.second-section {
+    display: flex;
+}
+
+.nice-div {
+    position: relative;
+    top: -450px;
+    left: 120px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.image-class {
+    position: relative;
+    top: -700px;
+    left: 250px;
+}
+
+.pis {
+    color: #FA4A0C;
+}
+
+.second-pis {
+    color: #737373;
+}
+
+
+.third-section {
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.two-image {
+    position: relative;
+    top: -990px;
+}
+
+.nicer-div {
+    position: relative;
+    top: -765px;
+}
+
+.check {
+    color: #FA4A0C;
+}
+
+.when {
+    color: #737373;
+}
+
+.fourth-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #F3F3F3;
+    text-align: center;
+    position: relative;
+    top: -1100px;
+    padding: 180px 20px;
+}
+
+.button-pee {
+    background-color: #FA4A0C;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+    width: 120px;
+    height: 40px
+}
+
+.button-aee {
+    background-color: transparent;
+    border-radius: 30px;
+    width: 119px;
+    height: 39px;
+    color: #FBFBFB;
+    border: 1px solid #FBFBFB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-section {
+    position: relative;
+    top: -1100px;
+    text-align: center;
+    border: 0.5px solid #FA4A0C;
+}
+
+.header-section {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+}
+
+.hm {
+    color: #FA4A0C;
+}
+
+.other-ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1000px -1000px;
+    position: relative;
+    left: 1000px;
+    top: -50px;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+
+
